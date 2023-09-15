@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400&family=Noto+Sans+Thai:wght@300&family=Noto+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Noto Sans', 'Noto Sans Lao', 'Noto Sans Thai', sans-serif;
+}
+
+.bg-table {
+  background-color: aquamarine;
+}

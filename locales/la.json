@@ -1,0 +1,140 @@
+{
+  "langs": "la",
+  "links": {
+    "department": "ພະແນກ",
+    "usertype": "ປະເພດຜູ້ໃຊ້",
+    "users": "ຜູ້ໃຊ້",
+    "typecontact": "ປະເພດການຕິດຕໍ່",
+    "issue": "ຫົວຂໍ້ປັນຫາ",
+    "subissue": "ຫົວຂໍ້ປັນຫາຫຍ່ອຍ",
+    "opencase": "ເປິດເຄສ",
+    "parcel": "ພັດສະດຸ"
+  },
+  "button": {
+    "btn_add": "ເພິ່ມຂໍ້ມູນໃໝ່",
+    "btn_save": "ບັນທຶກ",
+    "btn_edit": "ແກ້ໄຂ",
+    "btn_del": "ລົບ",
+    "btn_upd": "ບັນທຶກໃໝ່",
+    "btn_back": "ກັບຄືນ",
+    "btn_follow": "ຕິດຕາມ"
+  },
+  "departments": {
+    "dep_name": "ພະແນກ",
+    "dep_edit": "ແກ້ໄຂ ພະແນກ",
+    "dep_add": "ເພິ່ມຂໍ້ມູນ ພະແນກ ໃໝ່",
+    "table": {
+      "no": "ລຳດັບ",
+      "dep_name": "ຊື່ພະແນກ",
+      "dep_status": "ສະຖານະ"
+    }
+  },
+  "usertypes": {
+    "user_type": "ປະເພດຜູ້ໃຊ້",
+    "user_edit": "ແກ້ໄຂ ປະເພດຜູ້ໃຊ້",
+    "user_add": "ເພິ່ມຂໍ້ມູນ ປະເພດຜູ້ໃຊ້ ໃຫມ່",
+    "table": {
+      "no": "ລຳດັບ",
+      "type_name": "ຊື່ປະເພດຜູ້ໃຊ້",
+      "type_level": "ດຳລັງຂັ້ນ",
+      "type_status": "ສະຖານະ"
+    }
+  },
+  "users": {
+    "user": "ຜູ້ໃຊ້ງານ",
+    "user_edit": "ແກ້ໄຂ ຜູ້ໃຊ້ງານ",
+    "user_add": "ເພິ່ມຂໍ້ມູນ ຜູ້ໃຊ້ງານ ໃຫມ່",
+    "table": {
+      "no": "ລຳດັບ",
+      "zone": "ໂຊນ",
+      "departmen_id": "ພະແນກ",
+      "type_user": "ປະເພດຜູ້ໃຊ້",
+      "username": "ຊື່ຫຼີ້ນ",
+      "password": "ລະຫັດຜ່ານ",
+      "password_confirmation": "ຢືນຢັນລະຫັດຜ່ານ",
+      "tel": "ເບີໂທ",
+      "email": "ອີເມວລ໌",
+      "province": "ແຂວງ",
+      "district": "ເມືອງ",
+      "village": "ບ້ານ",
+      "address": "ທີ່ຢູ່",
+      "fullname": "ຊື່ ແລະ ນາມສະກຸນ"
+    }
+  },
+  "typecontact": {
+    "contact": "ປະເພດການຕິດຕໍ່",
+    "contact_edit": "ແກ້ໄຂ ປະເພດການຕິດຕໍ່",
+    "contact_add": "ເພີ່ມ ປະເພດການຕິດຕໍ່ ໃຫມ່",
+    "table": {
+      "no": "ລຳດັບ",
+      "type_name": "ປະເພດການຕິດຕໍ່",
+      "type_status": "ສະຖານະ"
+    }
+  },
+  "issues": {
+    "issue": "ຫົວຂໍ້ປັນຫາ",
+    "issue_edit": "ແກ້ໄຂ ຫົວຂໍ້ປັນຫາ",
+    "issue_add": "ເພິ່ມຂໍ້ມູນ ຫົວຂໍ້ປັນຫາ ໃຫມ່",
+    "table": {
+      "no": "ລຳດັບ",
+      "issue_name": "ຫົວຂໍ້ປັນຫາ",
+      "type_status": "ສະຖານະ"
+    }
+  },
+  "subissues": {
+    "issue": "ຫົວຂໍ້ປັນຫາຍ່ອຍ",
+    "issue_edit": "ແກ້ໄຂ ຫົວຂໍ້ປັນຫາຍ່ອຍ",
+    "issue_add": "ເພິ່ມຂໍ້ມູນ ຫົວຂໍ້ປັນຫາຍ່ອຍ ໃຫມ່",
+    "table": {
+      "no": "ລຳດັບ",
+      "title_issue_id": "ຫົວຂໍ້ປັນຫາ",
+      "sub_name": "ຫົວຂໍ້ປັນຫາຍ່ອຍ",
+      "sub_status": "ສະຖານະ"
+    }
+  },
+  "opencase": {
+    "issue": "ເປິດເຄສ",
+    "issue_edit": "ແກ້ໄຂ ປັນຫາ",
+    "issue_add": "ເພິ່ມຂໍ້ມູນ ປັນຫາ ໃຫມ່",
+    "issue_follow": "ການວິເຄາະບັນຫາ ແລະການປ້ອງກັນ",
+    "table": {
+      "no": "ລຳດັບ",
+      "issue_code": "ເລກພັດສະດຸ",
+      "full_name": "ຊື່ ລູກຄ້າ",
+      "issue_case": "ຫົວຂໍ້ການເປິດເຄສ",
+      "issue_id": "ປະເພດຂອງປັນຫາ",
+      "sub_issue": "ປະເພດຂອງປັນຫາຍ່ອຍ",
+      "barcode_parcel": "ໝາຍເລກພັດສະດຸ",
+      "issue_discription": "ລາຍລະອຽດປັນຫາ",
+      "current_department": "ພະແນກຮັບຜິດຊອບປະຈຸບັນ",
+      "tag_person": "ຜູ້ຮັບຜິດຊອບຫລັກ",
+      "last_department": "ພະແນກຮັບຜິດຊອບກ່ອນຫນ້າ",
+      "userid": "ຊື່ ແລະ ນາມສະກຸນ ຜູ້ເປິດເຄສ",
+      "email": "ອີເມວລ໌",
+      "tel": "ເບີໂທ",
+      "type_contact_id": "ຮັບຂໍ້ມູນຜ່ານທາງ",
+      "documents": "ເອກະສານ",
+      "issue_status": "ສະຖານະ"
+    },
+    "tacking": {
+      "current_department": "แผนกรับผิดชอบ",
+      "tag_person": "ผู้รับผิดชอบหลัก",
+      "issue": "สาเหตุของปัญหา",
+      "resolve": "วิธีการแก้ไข"
+    }
+  },
+  "detailcase": {
+    "issue": "ລາຍລະອຽດເຄສ",
+    "issue_edit": "ແກ້ໄຂ ປັນຫາ",
+    "table": {
+      "no": "ລຳດັບ",
+      "full_name": "ຜູ້ຮັບຜິດຊອບ",
+      "issue_case": "ຫົວຂໍ້ການເປິດເຄສ",
+      "issue_id": "ຫົວຂໍ້ປັນຫາ",
+      "department": "ພະແນກ",
+      "issue": "ສາເຫດຂອງປັນຫາ",
+      "resolve": "ວິທີການແກ້ໄຂ",
+      "issue_status": "ສະຖານະ"
+    }
+  }
+}

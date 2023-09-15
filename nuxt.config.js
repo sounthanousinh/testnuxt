@@ -4,13 +4,10 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - testnuxt',
-    title: 'testnuxt',
+    titleTemplate: '%s',
+    title: 'tacking isseu',
     htmlAttrs: {
       lang: 'en'
     },
@@ -21,7 +18,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/style.css' }
     ]
   },
 
@@ -44,13 +42,94 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/auth-next',
+    '@nuxtjs/i18n',
   ],
+  i18n: {
+    // defaultLocale: 'la',
+    locales: [
+      {
+        code: 'en',
+        file: 'en.json'
+      },
+      {
+        code: 'la',
+        file: 'la.json'
+      },
+      {
+        code: 'th',
+        file: 'th.json'
+      },
+    ],
+    langDir: 'locales/',
+    switchLocalePath: '/:lang/:route',
+    setLocaleCookie: true,
+    getLocaleCookie: 'i18n_loc',
+    strategy: 'prefix_except_default',
+    skipSettingLocaleOnNavigate: true,
+  },
+  // axios: {
+  //   baseURL: process.env.URL_API, // Used as fallback if no runtime config is provided
+  // },
+  // env: {
+  //   baseUrl: process.env.URLAPI
+  // },
+  axios: {
+    // baseURL: 'http://127.0.0.1:8000/api',
+    baseURL: process.env.URLAPI,
+
+  },
+
+  //Authentication
+  auth: {
+    watchLoggedIn: true,
+    redirect: {
+      login: '/la/login'
+    },
+    strategies: {
+      local: {
+        token: {
+          property: 'access_token',
+        },
+        user: {
+          property: 'user',
+        },
+
+        endpoints: {
+          login: {
+            url: '/auth/login',
+            method: 'post',
+            propertyName: 'access_token'
+          },
+          logout: {
+            url: '/auth/logout',
+            method: 'post'
+          },
+          // user: false
+          user: {
+            url: '/auth/users',
+            method: 'get',
+            propertyName: 'user'
+          },
+          // logout: false,
+          logout: {
+            url: '/auth/logout',
+            method: 'post'
+          },
+        },
+      }
+    }
+  },
+  router: {
+    middleware: ['auth']
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,

@@ -1,0 +1,140 @@
+{
+  "langs": "th",
+  "links": {
+    "department": "แผนก",
+    "usertype": "ประเภทผู้ใช้งาน",
+    "users": "ผู้ใช",
+    "typecontact": "ประเภทการติดต่อ",
+    "issue": "หัวข้อปัญหา",
+    "subissue": "หัวข้อปัญหาย่อย",
+    "opencase": "เปิดเคส",
+    "parcel": "พัสดุ"
+  },
+  "button": {
+    "btn_add": "เพิ่มข้อมูลใหม่",
+    "btn_save": "บันทึก",
+    "btn_edit": "แก้ไข",
+    "btn_del": "ลบ",
+    "btn_upd": "บันทึกใหม่",
+    "btn_back": "ย้อนกลับ",
+    "btn_follow": "ติดตาม"
+  },
+  "departments": {
+    "dep_name": "แผนก",
+    "dep_edit": "แก้ไข แผนก",
+    "dep_add": "เพิ่มข้อมูล แผนก ใหม่",
+    "table": {
+      "no": "ลำดับ",
+      "dep_name": "ชื่อแผนก",
+      "dep_status": "สถานะ"
+    }
+  },
+  "usertypes": {
+    "user_type": "ประเภทผู้ใช้งาน",
+    "user_edit": "แก้ไข ประเภทผู้ใช้งาน",
+    "user_add": "เพิ่มข้อมูล ประเภทผู้ใช้งาน ใหม่",
+    "table": {
+      "no": "ลำาดับ",
+      "type_name": "ชื่อประเภทผู้ใช้",
+      "type_level": "ดำลังขั้น",
+      "type_status": "สถานะ"
+    }
+  },
+  "users": {
+    "user": "ผู้ใช้งาน",
+    "user_edit": "แก้ไข ผู้ใช้งาน",
+    "user_add": "เพิ่มข้อมูล ผู้ใช้งาน ใหม่ ",
+    "table": {
+      "no": "ลำดับ",
+      "zone": "โซน",
+      "departmen_id": "แผนก",
+      "type_user": "ประเภทผู้ใช้งาน",
+      "username": "ชื่อเลน",
+      "password": "รหัสผ่าน",
+      "password_confirmation": "อยืนยันรหัสผ่าน",
+      "tel": "เบอร์โทร",
+      "email": "อีเมวล์",
+      "province": "จังหวัด",
+      "district": "อำเภอ",
+      "village": "บ้าน",
+      "address": "ที่อยู่",
+      "fullname": "ชื่อ และ นามสกุล"
+    }
+  },
+  "typecontact": {
+    "contact": "ประเภทการติดต่อ",
+    "contact_edit": "แก้ไข ประเภทการติดต่อ",
+    "contact_add": "เพิ่มข้อมูล ประเภทการติดต่อ ใหม่",
+    "table": {
+      "no": "ลำดับ",
+      "type_name": "ประเภทการติดต่อ",
+      "type_status": "สถานะ"
+    }
+  },
+  "issues": {
+    "issue": "หัวข้อปัญหา",
+    "issue_edit": "แก้ไข หัวข้อปัญหา",
+    "issue_add": "เพิ่มข้อมูล หัวข้อปัญหา ใหม่",
+    "table": {
+      "no": "ลำดับ",
+      "issue_name": "หัวข้อปัญหา",
+      "type_status": "สถานะ"
+    }
+  },
+  "subissues": {
+    "issue": "หัวข้อปัญหาย่อย",
+    "issue_edit": "แก้ไข หัวข้อปัญหาย่อย",
+    "issue_add": "เพิ่มข้อมูล หัวข้อปัญหาย่อย ใหม่",
+    "table": {
+      "no": "ลำดับ",
+      "title_issue_id": "หัวข้อปัญหา",
+      "sub_name": "หัวข้อปัญหาย่อย",
+      "sub_status": "สถานะ"
+    }
+  },
+  "opencase": {
+    "issue": "เปิดเคส",
+    "issue_edit": "แก้ไข เคส",
+    "issue_add": "เพิ่มข้อมูล เคส ใหม่",
+    "issue_follow": "การวิเคราะห์ปัญหาและการป้องกัน",
+    "table": {
+      "no": "ลำดับ",
+      "issue_code": "เลขพัสดุ",
+      "full_name": "ชื่อลูกค้า",
+      "issue_case": "หัวข้อเปิดเคส",
+      "issue_id": "ประเภทปัญหา",
+      "sub_issue": "ประเภทปัญหาย่อย",
+      "barcode_parcel": "หมายเลขพัสดุ",
+      "issue_discription": "รายละเอียดปัญหา",
+      "current_department": "แผนกรับผิดชอบปัจจุบัน",
+      "tag_person": "ผู้รับผิดชอบหลัก",
+      "last_department": "แผนกรับผิดชอบก่อนหน้า",
+      "userid": "ชื่อ และ นามสกุล ผู้เปีดเคส",
+      "email": "อีเมวล์",
+      "tel": "เบอร์โทร",
+      "type_contact_id": "รับข้อมูลผ่าน",
+      "documents": "เอกสาร",
+      "issue_status": "สถานะ"
+    },
+    "tacking": {
+      "current_department": "แผนกรับผิดชอบ",
+      "tag_person": "ผู้รับผิดชอบหลัก",
+      "issue": "สาเหตุของปัญหา",
+      "resolve": "วิธีการแก้ไข"
+    }
+  },
+  "detailcase": {
+    "issue": "รายละเอียดเคส",
+    "issue_edit": "แก้ไข เคส",
+    "table": {
+      "no": "ลำดับ",
+      "full_name": "ผู้รับผิดชอบ",
+      "issue_case": "หัวข้อเปิดเคส",
+      "issue_id": "หัวข้อปัญหา",
+      "department": "แผนก",
+      "issue": "สาเหตุของปัญหา",
+      "resolve": "วิธีการแก้ไข",
+      "issue_status": "สถานะ"
+    }
+  }
+}

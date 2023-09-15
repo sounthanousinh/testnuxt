@@ -1,0 +1,134 @@
+{
+  "langs": "en",
+  "links": {
+    "department": "Department",
+    "usertype": "User Type",
+    "users": "Users",
+    "typecontact": "Type Contact",
+    "issue": "Issue",
+    "subissue": "Sub Issue",
+    "opencase": "Open Case",
+    "parcel": "Parcel"
+  },
+  "button": {
+    "btn_add": "Add New",
+    "btn_save": "Save",
+    "btn_edit": "Update",
+    "btn_del": "delete",
+    "btn_upd": "Save New",
+    "btn_back": "Go Back",
+    "btn_follow": "Follow"
+  },
+  "departments": {
+    "dep_name": "Department",
+    "dep_edit": "Update Department",
+    "dep_add": "Add New Department",
+    "table": {
+      "no": "No.",
+      "dep_name": "Department Name",
+      "dep_status": "Status"
+    }
+  },
+  "usertypes": {
+    "user_type": "Type of User",
+    "user_edit": "Update User Type",
+    "user_add": "Add New User Type",
+    "table": {
+      "no": "No",
+      "type_name": "Name",
+      "type_level": "Level",
+      "type_status": "Status"
+    }
+  },
+  "users": {
+    "user": "Username",
+    "user_edit": "Update Username",
+    "user_add": "Add New User",
+    "table": {
+      "no": "No.",
+      "zone": "Zone",
+      "departmen_id": "Department",
+      "type_user": "Type Of User",
+      "username": "Nick Name",
+      "password": "Password",
+      "password_confirmation": "Confirm Password",
+      "tel": "Tel",
+      "email": "Email",
+      "province": "Province",
+      "district": "District",
+      "village": "Village",
+      "address": "Address",
+      "fullname": "Name and Surname"
+    }
+  },
+  "typecontact": {
+    "contact": "Type Contact",
+    "contact_edit": "Update Type Contact",
+    "contact_add": "Add New Type Contact",
+    "table": {
+      "no": "No.",
+      "type_name": "Contact",
+      "type_status": "Status"
+    }
+  },
+  "issues": {
+    "issue": "Issue",
+    "issue_edit": "Update Issue",
+    "issue_add": "Add New Issue",
+    "table": {
+      "no": "No.",
+      "issue_name": "Topic of Issue",
+      "type_status": "Status"
+    }
+  },
+  "subissues": {
+    "issue": "Sub Issue",
+    "issue_edit": "Update Sub Issue",
+    "issue_add": "Add New Sub Issue",
+    "table": {
+      "no": "No.",
+      "title_issue_id": "Topic of Issue",
+      "sub_name": "Sub Issue",
+      "sub_status": "Status"
+    }
+  },
+  "opencase": {
+    "issue": "Open case",
+    "issue_edit": "Update Case",
+    "issue_add": "Add New Case",
+    "issue_follow": "Issue analysis  and protect",
+    "table": {
+      "no": "No.",
+      "issue_code": "Tacking Number",
+      "full_name": "Customer Name",
+      "issue_case": "Topic Open Case",
+      "issue_id": "Type of Issue",
+      "sub_issue": "Sub Type of Issue",
+      "barcode_parcel": "Barcode Parcel",
+      "issue_discription": "Issue Discription",
+      "current_department": "Current Department",
+      "tag_person": "Responsible Person",
+      "last_department": "Last Department",
+      "userid": "Name and Surname",
+      "email": "Email",
+      "tel": "Tel",
+      "type_contact_id": "Type Contact",
+      "documents": "Document",
+      "issue_status": "Status"
+    }
+  },
+  "detailcase": {
+    "issue": "Detail case",
+    "issue_edit": "Update Case",
+    "table": {
+      "no": "No.",
+      "full_name": "User Responsible",
+      "issue_case": "Topic Open Case",
+      "issue_id": "Topic of Issue",
+      "department": "Department",
+      "issue": "Issue cause",
+      "resolve": "Troubleshooting",
+      "issue_status": "Status"
+    }
+  }
+}
